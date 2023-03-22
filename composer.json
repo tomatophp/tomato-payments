@@ -1,0 +1,39 @@
+{
+    "name": "tomatophp/tomato-payments",
+    "type": "library",
+    "description": "Payments package that contain 11 method with all migration caring ;)",
+    "keywords": [
+        "php",
+        "laravel",
+        "template"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tomatophp\\TomatoPayments\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TomatoPHP\\TomatoPayments\\TomatoPaymentsServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Khaled abodaif",
+            "email": "khaled.abodaif@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "tomatophp/console-helpers": "^1.0",
+        "khaleds/payment": "dev-master"
+    }
+}
